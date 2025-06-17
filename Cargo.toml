@@ -5,6 +5,12 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4.5.39", features = ["derive"] }
+eframe = "0.31.1"
+egui-file-dialog = "0.10.0"
+egui-multiwin = "0.5.2"
+egui_form = "0.5.0"
 features = "0.10.0"
+postgres = "0.19.10"
 serde = "1.0.219"
 serde_derive = "1.0.219"
+sqlite = "0.37.0"
